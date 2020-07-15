@@ -19,9 +19,7 @@ if ( \App::environment( 'local' ) ) {
     } );
 }
 
-Route::get( '/', function () {
-    return view( 'welcome' );
-} );
+Route::view( '/', 'welcome');
 
 Route::livewire('/counter', 'counter')->name('counter');
 Route::livewire('/data-binding', 'data-binding')->name('data-binding');

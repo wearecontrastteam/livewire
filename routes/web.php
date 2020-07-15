@@ -24,5 +24,6 @@ Route::view( '/', 'welcome');
 Route::livewire('/counter', 'counter')->name('counter');
 Route::livewire('/data-binding', 'data-binding')->name('data-binding');
 Route::livewire('/action', 'action')->name('action');
+Route::livewire('/events', 'events')->name('events');
 Route::livewire('/mount', 'mount')->name('mount');
 Route::livewire('/search', 'search')->name('search');
